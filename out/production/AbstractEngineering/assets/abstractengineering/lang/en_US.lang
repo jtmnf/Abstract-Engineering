@@ -1,0 +1,7 @@
+# BLOCKS
+tile.abstractengineering:oreMagnesium.name=Magnesium Ore
+
+# ITEMS
+item.abstractengineering:magnesiumAxe.name=Magnesium Axe
+item.abstractengineering:magnesiumPickaxe.name=Magnesium Pickaxe
+item.abstractengineering:magnesiumShovel.name=Magnesium Shovel

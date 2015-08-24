@@ -1,6 +1,8 @@
 package com.jtmnf.abstractengineering;
 
 import com.jtmnf.abstractengineering.proxy.IProxy;
+import com.jtmnf.abstractengineering.register.RegisterBlocks;
+import com.jtmnf.abstractengineering.register.RegisterItems;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
@@ -27,7 +29,8 @@ public class AbstractEngineering {
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event){
-
+        RegisterBlocks.register();
+        RegisterItems.register();
     }
 
     @Mod.EventHandler
@@ -40,7 +43,7 @@ public class AbstractEngineering {
 
     }
 
-    public static class ForestryExtensionTab {
+    public static class AbstractEngineeringTab {
         public static final CreativeTabs tab = new CreativeTabs(AbstractEngineering.MODID) {
             @Override
             public Item getTabIconItem() {

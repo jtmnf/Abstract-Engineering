@@ -1,37 +1,25 @@
-[01:22:16] [main/INFO]: Setting user: Player578
-[01:22:18] [Client thread/INFO]: LWJGL Version: 2.9.1
-[01:22:32] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:AbstractEngineering
-[01:22:33] [Sound Library Loader/INFO]: Sound engine started
-[01:22:34] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
-[01:22:34] [Client thread/INFO]: Created: 16x16 textures/items-atlas
-[01:22:34] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:AbstractEngineering
-[01:22:35] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[01:22:35] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[01:22:36] [Sound Library Loader/INFO]: Sound engine started
-[01:22:51] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[01:22:51] [Server thread/INFO]: Generating keypair
-[01:22:51] [Server thread/INFO]: Preparing start region for level 0
-[01:22:52] [Server thread/INFO]: Changing view distance to 12, from 10
-[01:22:52] [Server thread/INFO]: Player578[local:E:49af833c] logged in with entity id 254 at (-1467.671452626346, 4.0, 287.1112543678826)
-[01:22:52] [Server thread/INFO]: Player578 joined the game
-[01:22:55] [Server thread/INFO]: Player578 has just earned the achievement [Taking Inventory]
-[01:22:55] [Client thread/INFO]: [CHAT] Player578 has just earned the achievement [Taking Inventory]
-[01:23:04] [Client thread/INFO]: [CHAT] /gamemode, /gamerule
-[01:23:05] [Client thread/INFO]: [CHAT] survival, creative, adventure
-[01:23:06] [Server thread/INFO]: [Player578: Set own game mode to Survival Mode]
-[01:23:06] [Client thread/INFO]: [CHAT] Your game mode has been updated
-[01:23:13] [Server thread/INFO]: [Player578: Set own game mode to Creative Mode]
-[01:23:14] [Client thread/INFO]: [CHAT] Your game mode has been updated
-[01:23:25] [Server thread/INFO]: [Player578: Set own game mode to Survival Mode]
-[01:23:25] [Client thread/INFO]: [CHAT] Your game mode has been updated
-[01:23:34] [Server thread/INFO]: Saving and pausing game...
-[01:23:34] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
-[01:23:34] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
-[01:23:34] [Server thread/INFO]: Saving chunks for level 'Test'/The End
-[01:23:35] [Client thread/INFO]: Stopping!
-[01:23:35] [Server thread/INFO]: Stopping server
-[01:23:35] [Server thread/INFO]: Saving players
-[01:23:35] [Server thread/INFO]: Saving worlds
-[01:23:35] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
-[01:23:35] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
-[01:23:35] [Server thread/INFO]: Saving chunks for level 'Test'/The End
+[16:59:40] [main/INFO]: Setting user: Player546
+[16:59:41] [Client thread/INFO]: LWJGL Version: 2.9.1
+[16:59:54] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:AbstractEngineering
+[16:59:55] [Sound Library Loader/INFO]: Sound engine started
+[16:59:55] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[16:59:55] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[16:59:56] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:AbstractEngineering
+[16:59:56] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[16:59:56] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[16:59:57] [Sound Library Loader/INFO]: Sound engine started
+[17:00:06] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[17:00:06] [Server thread/INFO]: Generating keypair
+[17:00:06] [Server thread/INFO]: Preparing start region for level 0
+[17:00:06] [Server thread/INFO]: Changing view distance to 12, from 10
+[17:00:07] [Server thread/INFO]: Player546[local:E:929e1434] logged in with entity id 253 at (-1470.4734845180835, 4.875, 287.45956725579293)
+[17:00:07] [Server thread/INFO]: Player546 joined the game
+[17:02:17] [Server thread/INFO]: Player546 has just earned the achievement [Taking Inventory]
+[17:02:17] [Client thread/INFO]: [CHAT] Player546 has just earned the achievement [Taking Inventory]
+[17:02:18] [Client thread/INFO]: Stopping!
+[17:02:18] [Server thread/INFO]: Stopping server
+[17:02:18] [Server thread/INFO]: Saving players
+[17:02:18] [Server thread/INFO]: Saving worlds
+[17:02:18] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
+[17:02:18] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
+[17:02:18] [Server thread/INFO]: Saving chunks for level 'Test'/The End

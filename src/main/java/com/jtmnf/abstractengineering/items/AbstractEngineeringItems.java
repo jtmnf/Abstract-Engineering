@@ -8,7 +8,6 @@ import net.minecraft.item.ItemStack;
 public class AbstractEngineeringItems extends Item {
     public AbstractEngineeringItems() {
         this.setCreativeTab(AbstractEngineeringTab.tab);
-        this.setMaxDamage(312);
     }
 
     @Override

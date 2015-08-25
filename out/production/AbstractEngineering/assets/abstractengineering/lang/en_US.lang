@@ -1,7 +1,17 @@
+# CREATIVE TAB
+itemGroup.abstractengineering=Abstract Engineering
+
 # BLOCKS
-tile.abstractengineering:oreMagnesium.name=Magnesium Ore
+tile.abstractengineering:oreManganese.name=Manganese Ore
 
 # ITEMS
-item.abstractengineering:magnesiumAxe.name=Magnesium Axe
-item.abstractengineering:magnesiumPickaxe.name=Magnesium Pickaxe
-item.abstractengineering:magnesiumShovel.name=Magnesium Shovel
+item.abstractengineering:manganeseAxe.name=Manganese Axe
+item.abstractengineering:manganesePickaxe.name=Manganese Pickaxe
+item.abstractengineering:manganeseShovel.name=Manganese Shovel
+item.abstractengineering:manganeseHoe.name=Manganese Hoe
+item.abstractengineering:manganeseSword.name=Manganese Sword
+
+item.abstractengineering:ingotManganese.name=Manganese Ingot
+item.abstractengineering:ingotVanadium.name=Vanadium Ingot
+item.abstractengineering:dustManganese.name=Manganese Dust
+item.abstractengineering:dustVanadium.name=Vanadium Dust

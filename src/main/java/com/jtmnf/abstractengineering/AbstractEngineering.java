@@ -1,15 +1,17 @@
 package com.jtmnf.abstractengineering;
 
+import com.jtmnf.abstractengineering.proxy.Client;
 import com.jtmnf.abstractengineering.proxy.IProxy;
 import com.jtmnf.abstractengineering.register.RegisterBlocks;
 import com.jtmnf.abstractengineering.register.RegisterItems;
+import com.jtmnf.abstractengineering.register.RegisterTileEntities;
+import com.jtmnf.abstractengineering.register.RegisterWorldGen;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 
 @Mod(name = AbstractEngineering.MOD, modid = AbstractEngineering.MODID, version = AbstractEngineering.VERSION)
@@ -31,11 +33,13 @@ public class AbstractEngineering {
     public void preInit(FMLPreInitializationEvent event){
         RegisterBlocks.register();
         RegisterItems.register();
+        RegisterTileEntities.register();
     }
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent event) {
-
+        RegisterWorldGen.register();
+        Client.registerRender();
     }
 
     @Mod.EventHandler
@@ -47,7 +51,7 @@ public class AbstractEngineering {
         public static final CreativeTabs tab = new CreativeTabs(AbstractEngineering.MODID) {
             @Override
             public Item getTabIconItem() {
-                return Items.arrow;
+                return Item.getItemFromBlock(RegisterBlocks.oreManganese);
             }
         };
     }

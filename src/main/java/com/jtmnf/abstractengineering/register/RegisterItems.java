@@ -16,6 +16,7 @@ public class RegisterItems {
     public static final AbstractEngineeringItems ingotVanadium = new VanadiumIngot();
     public static final AbstractEngineeringItems dustVanadium = new VanadiumDust();
 
+    public static final FlaxSeeds flaxSeeds = new FlaxSeeds();
 
     public static void register(){
         GameRegistry.registerItem(manganeseAxe, "manganeseAxe");
@@ -28,5 +29,7 @@ public class RegisterItems {
         GameRegistry.registerItem(dustManganese, "dustManganese");
         GameRegistry.registerItem(ingotVanadium, "ingotVanadium");
         GameRegistry.registerItem(dustVanadium, "dustVanadium");
+
+        GameRegistry.registerItem(flaxSeeds, "flaxSeeds");
     }
 }

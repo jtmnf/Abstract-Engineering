@@ -13,6 +13,8 @@ import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraftforge.common.MinecraftForge;
 
 @Mod(name = AbstractEngineering.MOD, modid = AbstractEngineering.MODID, version = AbstractEngineering.VERSION)
 public class AbstractEngineering {
@@ -34,12 +36,14 @@ public class AbstractEngineering {
         RegisterBlocks.register();
         RegisterItems.register();
         RegisterTileEntities.register();
+
+        MinecraftForge.addGrassSeed(new ItemStack(RegisterItems.flaxSeeds), 10);
     }
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent event) {
         RegisterWorldGen.register();
-        Client.registerRender();
+        proxy.registerRender();
     }
 
     @Mod.EventHandler

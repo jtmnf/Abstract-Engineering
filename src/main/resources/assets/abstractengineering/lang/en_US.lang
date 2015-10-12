@@ -3,6 +3,7 @@ itemGroup.abstractengineering=Abstract Engineering
 
 # BLOCKS
 tile.abstractengineering:oreManganese.name=Manganese Ore
+tile.abstractengineering:flaxSeedsCrop.name=Flax Crops
 
 # ITEMS
 item.abstractengineering:manganeseAxe.name=Manganese Axe
@@ -15,3 +16,5 @@ item.abstractengineering:ingotManganese.name=Manganese Ingot
 item.abstractengineering:ingotVanadium.name=Vanadium Ingot
 item.abstractengineering:dustManganese.name=Manganese Dust
 item.abstractengineering:dustVanadium.name=Vanadium Dust
+
+item.abstractengineering:flaxSeeds.name=Flax Seeds

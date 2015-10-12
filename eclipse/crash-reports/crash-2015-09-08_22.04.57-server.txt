@@ -1,0 +1,81 @@
+---- Minecraft Crash Report ----
+// Quite honestly, I wouldn't worry myself about that.
+
+Time: 08-09-2015 22:04
+Description: Ticking block entity
+
+java.lang.NullPointerException: Ticking block entity
+	at com.jtmnf.abstractengineering.tileentities.TileEntityVanadiumQuarry.dropBlock(TileEntityVanadiumQuarry.java:109)
+	at com.jtmnf.abstractengineering.tileentities.TileEntityVanadiumQuarry.updateEntity(TileEntityVanadiumQuarry.java:71)
+	at net.minecraft.world.World.updateEntities(World.java:2160)
+	at net.minecraft.world.WorldServer.updateEntities(WorldServer.java:515)
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:703)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:614)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:118)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:485)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:752)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at com.jtmnf.abstractengineering.tileentities.TileEntityVanadiumQuarry.dropBlock(TileEntityVanadiumQuarry.java:109)
+	at com.jtmnf.abstractengineering.tileentities.TileEntityVanadiumQuarry.updateEntity(TileEntityVanadiumQuarry.java:71)
+
+-- Block entity being ticked --
+Details:
+	Name: tileEntityVanadiumQuarry // com.jtmnf.abstractengineering.tileentities.TileEntityVanadiumQuarry
+	Block type: ID #168 (tile.abstractengineering:vanadiumQuarry // com.jtmnf.abstractengineering.blocks.VanadiumQuarry)
+	Block data value: 0 / 0x0 / 0b0000
+	Block location: World: (-1441,4,305), Chunk: (at 15,0,1 in -91,19; contains blocks -1456,0,304 to -1441,255,319), Region: (-3,0; contains chunks -96,0 to -65,31, blocks -1536,0,0 to -1025,255,511)
+	Actual block type: ID #168 (tile.abstractengineering:vanadiumQuarry // com.jtmnf.abstractengineering.blocks.VanadiumQuarry)
+	Actual block data value: 0 / 0x0 / 0b0000
+Stacktrace:
+	at net.minecraft.world.World.updateEntities(World.java:2160)
+	at net.minecraft.world.WorldServer.updateEntities(WorldServer.java:515)
+
+-- Affected level --
+Details:
+	Level name: Test
+	All players: 1 total; [EntityPlayerMP['Player815'/253, l='Test', x=-1441,47, y=4,00, z=303,07]]
+	Chunk stats: ServerChunkCache: 759 Drop: 0
+	Level seed: -6370327297881648797
+	Level generator: ID 01 - flat, ver 0. Features enabled: false
+	Level generator options: 
+	Level spawn location: World: (-1459,4,283), Chunk: (at 13,0,11 in -92,17; contains blocks -1472,0,272 to -1457,255,287), Region: (-3,0; contains chunks -96,0 to -65,31, blocks -1536,0,0 to -1025,255,511)
+	Level time: 83714 game time, 1123 day time
+	Level dimension: 0
+	Level storage version: 0x04ABD - Anvil
+	Level weather: Rain time: 76745 (now: false), thunder time: 11682 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: true
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:703)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:614)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:118)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:485)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:752)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Operating System: Windows 8.1 (amd64) version 6.3
+	Java Version: 1.8.0_51, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 872912096 bytes (832 MB) / 1037959168 bytes (989 MB) up to 1037959168 bytes (989 MB)
+	JVM Flags: 3 total; -Xincgc -Xmx1024M -Xms1024M
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP v9.05 FML v7.10.99.99 Minecraft Forge 10.13.4.1492 4 mods loaded, 4 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCHIJAAAA	mcp{9.05} [Minecraft Coder Pack] (minecraft.jar) 
+	UCHIJAAAA	FML{7.10.99.99} [Forge Mod Loader] (forgeSrc-1.7.10-10.13.4.1492-1.7.10.jar) 
+	UCHIJAAAA	Forge{10.13.4.1492} [Minecraft Forge] (forgeSrc-1.7.10-10.13.4.1492-1.7.10.jar) 
+	UCHIJAAAA	abstractengineering{1.0.0} [AbstractEngineering] (AbstractEngineering) 
+	GL info: ~~ERROR~~ RuntimeException: No OpenGL context found in the current thread.
+	Profiler Position: N/A (disabled)
+	Vec3 Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	Player Count: 1 / 8; [EntityPlayerMP['Player815'/253, l='Test', x=-1441,47, y=4,00, z=303,07]]
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
